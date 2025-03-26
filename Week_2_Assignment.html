@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>Bundi's World</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to my homepage. You are now Home.</p>
+            
+
+            <h3>My Top Priorities</h3>
+            <ol type="I">
+                <li>Learning Web Development</li>
+                <li>Building Projects</li>
+                <li>Improving Coding Skills</li>
+                <li>Networking with Developers</li>
+                <li>Contributing to Open Source</li>
+            </ol>
+            
+            <!-- External Image -->
+            <h3>Beautiful Scenery</h3>
+            <img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg" alt="Scenic View from Pexels" width="600">
+        </section>
+        
+        <section id="about">
+            <h2>About</h2>
+            <p>This website is created to showcase my mindscape.</p>
+        </section>
+        
+        <!-- Contacts Table -->
+        <section id="contacts">
+            <h2>Contact List</h2>
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>Adam Scott</td>
+                    <td>123 Lumon St</td>
+                    <td>+1234567890</td>
+                    <td>adam.scott@example.com</td>
+                </tr>
+                <tr>
+                    <td>Britt Lower</td>
+                    <td>456 Severance Rd</td>
+                    <td>+0987654321</td>
+                    <td>britt.lower@example.com</td>
+                </tr>
+                <tr>
+                    <td>John Turturro</td>
+                    <td>789 Macrodata Ln</td>
+                    <td>+1122334455</td>
+                    <td>john.turturro@example.com</td>
+                </tr>
+                <tr>
+                    <td>Patricia Arquette</td>
+                    <td>101 Lumon HQ</td>
+                    <td>+5566778899</td>
+                    <td>patricia.arquette@example.com</td>
+                </tr>
+                <tr>
+                    <td>Christopher Walken</td>
+                    <td>202 Kier Blvd</td>
+                    <td>+6677889900</td>
+                    <td>christopher.walken@example.com</td>
+                </tr>
+            </table>
+        </section>
+        
+        <!-- Registration Form -->
+        <section id="register">
+            <h2>Registration Form</h2>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <br><br>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <br><br>
+                
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <br><br>
+                
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male"> Male
+                <input type="radio" id="female" name="gender" value="female"> Female
+                <input type="radio" id="other" name="gender" value="other"> Other
+                <br><br>
+                
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select your country</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">UK</option>
+                    <option value="australia">Australia</option>
+                </select>
+                <br><br>
+                
+                <label>Interests:</label>
+                <input type="checkbox" name="interests" value="coding"> Coding
+                <input type="checkbox" name="interests" value="music"> Music
+                <input type="checkbox" name="interests" value="sports"> Sports
+                <br><br>
+                
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact: sean.kinuthia@strathmore.edu</p>
+        <p>&copy; 2025 Bundi's World. All rights reserved.</p>
+    </footer>
+</body>
+</html>
